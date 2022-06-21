@@ -20,6 +20,19 @@ h2{
 }
 a{
     position: relative;
-    left: 25%;
-   
+    left: 25%;  
+}
+.card__img{
+    height: 300px;
+    width: 300px;
+}
+.card{
+    border-radius:6px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 0 0 1em rgb(30, 30, 177);
+}
+.container{
+    display: flex;
+    flex-direction: row;
 }
